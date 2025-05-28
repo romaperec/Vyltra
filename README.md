@@ -17,7 +17,7 @@
 ## Tech Stack
 
 - **Backend:** FastAPI, WebSockets  
-- **Database:** PostgreSQL (or your choice)  
+- **Database:** PostgreSQL
 - **Authentication:** JWT  
 - **Frontend:** (To be added)  
 
@@ -29,4 +29,4 @@
 
 - Python 3.10+  
 - PostgreSQL 
-- [Poetry](https://python-poetry.org/) (recommended for dependency management)  
+- [Poetry](https://python-poetry.org/)
