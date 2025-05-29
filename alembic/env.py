@@ -20,7 +20,8 @@ if config.config_file_name is not None:
 # for 'autogenerate' support
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
-from src.models import Base  # noqa: E402
+from src.auth.models import *  # noqa: E402, F403
+from src.database import Base  # noqa: E402
 
 target_metadata = Base.metadata
 
